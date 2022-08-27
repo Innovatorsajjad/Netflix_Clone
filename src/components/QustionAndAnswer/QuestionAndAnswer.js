@@ -64,6 +64,13 @@ const QuestionAndAnswer = () => {
                         </div>
                     </div>
                 </div>
+                <div className="SearchGrup py-4">
+                <h5 className='text-white mx-auto text-xl'>Ready to watch? Enter your email to create or restart your membership.</h5>
+                <div class="flex w-1/3 mx-auto my-3" >
+                    <input type="text" placeholder='Email Address' className='w-10/12 rounded px-3' />
+                    <button class="btn rounded px-10 bg-red-600 text-white">Get Started</button>
+                  </div>
+            </div>
             </div>
         </div>
     );
